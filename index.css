@@ -42,10 +42,11 @@ textarea {
 
 .title {
     text-align: center;
-    font-size: 48px;
+    font-size: 60px;
     font-weight: bold;
     color: #712770;
     margin-top: 50px;
+    font-family: 'Indie Flower', cursive;
 }
 
 .container {
@@ -62,6 +63,8 @@ textarea {
     height: 500px;
     padding: 10px;
     border: 2px solid #712770;
+    margin-right: 30px; 
+    
 }
 
 .counter {
@@ -76,6 +79,7 @@ textarea {
     width: 200px;
     border-radius: 50%;
     text-align: center;
+    margin-left: 30px;
 }
 
 .row {

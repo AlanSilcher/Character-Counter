@@ -39,3 +39,42 @@ textarea {
     border-radius: 50%;
     text-align: center;
 }
+
+
+
+/* Estilos del título */
+.title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #712770;
+    margin-top: 50px;
+}
+
+/* Estilos del contenedor */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* Estilos del cuadro de texto */
+.form-control {
+    font-size: 24px;
+    width: 100%;
+}
+
+/* Estilos del contador */
+.counter {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffe2ff;
+    background-color: #712770;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}

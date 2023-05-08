@@ -2,27 +2,27 @@
 <html>
 
 <head>
-  <title>Contador de caracteres</title>
-  <link rel="stylesheet" href="index.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Contador de caracteres</title>
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 
 <body onload="characterCounter()">
 
-    <h3>Contador de caracteres</h3>
+    <h1 class="title">Contador de caracteres</h1>
 
     <div class="container">
-    
-        <div>
-            <div id="textView"></div>
-        </div>
-        <div>
-            <textarea placeholder="Ingrese texto" class="form-control" id="text"></textarea>
+        <div class="row">
+            <div class="col-lg-6">
+                <textarea placeholder="Ingrese texto" class="form-control" id="text"></textarea>
+            </div>
+            <div class="col-lg-6">
+                <div class="counter" id="textView"></div>
+            </div>
         </div>
     </div>
 
     <script type="text/javascript" src="index.js"></script>
 </body>
-
 
 </html>

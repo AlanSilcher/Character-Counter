@@ -11,5 +11,5 @@ function characterCounter () {
     setInterval(function (){
         var count = getId("text")
         innerHTML("textView", count.length)
-    },1000)
+    },0000)
 }

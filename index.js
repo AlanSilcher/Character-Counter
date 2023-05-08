@@ -10,8 +10,8 @@ function innerHTML (id, result) {
 function characterCounter () {
 
     setInterval(function (){
-        var count = getId("txt")
+        var count = getId("text")
         console.log(count)
-        innerHTML("txtView", count.length)
+        innerHTML("textView", count.length)
     },0000)
 }

@@ -63,7 +63,7 @@ textarea {
     height: 500px;
     padding: 10px;
     border: 2px solid #712770;
-    margin-right: 30px; 
+    margin-right: 50px; 
     
 }
 
@@ -79,7 +79,7 @@ textarea {
     width: 200px;
     border-radius: 50%;
     text-align: center;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 .row {
